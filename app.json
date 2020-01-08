@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Bugsnag NetInfo Repro",
+    "slug": "bugsnag-netinfo-repro",
+    "privacy": "unlisted",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+    },
+    "extra": {
+      "bugsnag": {
+        "apiKey": "be306f2055513df0640b261f94a7bfa1"
+      }
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "@bugsnag/expo/hooks/post-publish.js"
+        }
+      ]
+    }
+  },
+  "slug": "bugsnag-netinfo-repro",
+  "name": "bugsnag-netinfo-repro"
+}
